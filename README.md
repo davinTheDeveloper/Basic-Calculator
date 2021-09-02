@@ -5,7 +5,6 @@ Languages:
 - HTML5
 - CSS
 - Javascript
-- PHP
 
 Considerations:
 
