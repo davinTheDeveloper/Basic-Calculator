@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="centerCalc">
+     <div class="calcGrid">
+         <div class="boxScreen"><input class="inputBox" type="text"  id="result" disabled ></div>
+         <button num id="black" onClick = "display('7')">7</button>
+         <button num id="black" onClick = "display('8')">8</button>
+         <button num id="black" onClick = "display('9')">9</button>
+         <button action id="black" onClick = "display('/')">/</button>
+         <button num id="black" onClick = "display('4')">4</button>
+         <button num id="black" onClick = "display('5')">5</button>
+         <button num id="black" onClick = "display('6')">6</button>
+         <button action id="black" onClick = "display('*')">*</button>
+         <button num id="black" onClick = "display('1')">1</button>
+         <button num id="black" onClick = "display('2')">2</button>
+         <button num id="black" onClick = "display('3')">3</button>
+         <button action id="black" onClick = "display('+')">+</button>
+         <button num id="black" onClick = "display('0')">0</button>
+         <button clear id="black" onClick = "clearScreen()">c</button>
+         <button decimal id="black" onClick = "display('.')">.</button>
+         <button action id="black" onClick = "display('-')">-</button>
+         <button allClear class="clear" onClick = "clearScreen()">AC</button> <!--span-two-->
+         <button equal class="eql" onClick = "calculate()">=</button>  <!--span-two-->
+     </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
